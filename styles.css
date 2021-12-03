@@ -1,7 +1,8 @@
 *{
  font-family: 'JetBrains Mono', monospace;
 }
-h1.pageName{
+.header{
+    border-top: 0px;
     color: #1a1915;
     font-size: 25;
     font-weight: bold;
@@ -10,8 +11,18 @@ h1.pageName{
     width: 100%;
 
 }
+
+
+nav{
+    display: inline;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+nav:hover{
+    color: chartreuse; 
+}
 h1:hover{
-    background-color:blue;
+    color:blue;
 }
 table, th, td{
     margin-left: auto; 
@@ -33,7 +44,8 @@ h2{
 #cat1{
 
 width: 300px;
-height: 300px
+height: 300px;
+
 }
 p{
     font-family: Helvetica;
