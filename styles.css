@@ -45,6 +45,16 @@ span{
     font-style: Helvetica;
     font-style: italic;
 }
-html{
-    background-image: url('./images/cat1.jfif');
-}
+.bg {
+    /* The image used */
+    background-image: url("./image/background.jpg");
+  
+    /* Full height */
+    height: 100
+    %;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
